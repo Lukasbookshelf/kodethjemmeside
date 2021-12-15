@@ -1,0 +1,147 @@
+body {
+  background-color: white !important ;
+  margin: 0;
+  }
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(245, 236, 217, 0.6);;
+}
+
+    .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px 22px;
+        font-size: 20px;
+        font-family: garamond, serif;
+    }
+
+  .topnav a:hover {
+            text-decoration: underline;
+        }
+
+  .topnav a.active {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+  }
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: white;
+  color: black;
+  font-size: 20px;
+  font-family: fantasy, sans-serif;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0.67em;
+  font-weight: bold;
+  font-family: garamond;
+  }
+
+  h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: garamond;
+    text-align: center;
+    }
+
+  p {
+    font-family: garamond;
+    }
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(245, 236, 217, 0.3);;
+  color: black;
+  text-align: left;
+  }
+
+  input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgba(245, 236, 217, 0.3);;
+  padding: 20px;
+}
+
+
+{
+  box-sizing: border-box;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background: rgba(245, 236, 217, 0.3);
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
