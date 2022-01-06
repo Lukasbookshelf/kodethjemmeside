@@ -1,5 +1,7 @@
-{
-  margin: 0;
+*{
+  margin:5px;
+  padding: 0;
+  font-family: sans-serif;
   }
 
 body {
@@ -99,7 +101,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: rgba(245, 236, 217, 0.3);;
+  background-color: white;
   padding: 20px;
 }
 
@@ -148,3 +150,20 @@ h1 {
   .column {
     width: 100%;
   }
+
+  .column2 {
+    float: left;
+    width: 25%;
+  }
+
+a:link {
+  color: black;
+  font-family: garamond, serif;
+  text-decoration: underline;
+  font-size: 20px;
+  text-align: center;
+  }
+
+  .text {
+  padding-right: 20px;
+}
